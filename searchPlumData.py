@@ -30,7 +30,7 @@ def createIndex(indName):
 
         ids,col = data['id'],data[indName]
 
-        index.setdefault(org, [])
+        index.setdefault(org_name, [])
         
         index[col].append(ids)
         
